@@ -1,0 +1,148 @@
+/*Tea Cozy Project*/
+
+
+body{
+  background-color: black;
+  color: seashell;
+  opacity: 0.9;
+  font-family: "Helvetica";
+  font-size: 22px;
+}
+
+/*Header*/
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  height:69px;
+  width: 1300px;
+  border-bottom: 1px solid seashell;
+}
+.logo{
+  padding-left:10px;
+}
+header .nav li {
+  display: inline-block;
+  padding: 12px;
+}
+
+.nav a{
+  color: seashell;
+  text-decoration: underline;
+}
+
+/*Mission*/
+.mission-background{
+height:700px;
+width: 1200px;
+margin:0 50px 100px 50px;
+
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*oaw9jd*_ga*MDk1OTA5Njk2MS4xNjgxNDg1MTQx*_ga_3LRZM6TM9L*MTY4MjU1MjI4MS40My4xLjE2ODI1NTM3MDIuNjAuMC4w");
+}
+
+.mission-text{
+background-color: black;
+display: inline-flex;
+flex-direction: column;
+justify-content: space-around;
+position: absolute;
+top:370px;
+width: 1200px;
+text-align: center;
+height: 110px;
+line-height: 0.05;
+}
+
+/*Tea of the Mouth*/
+.teaofthemouth{
+  box-sizing: border-box;
+  width: 1300px;
+text-align: center;
+line-height: 0.8;
+}
+
+.fivetea img{
+  height:200px;
+  width: 300px;
+  box-sizing: border-box;
+}
+
+.fivetea{
+  box-sizing: border-box;
+  width: 1300px;
+  text-align: center;
+}
+
+.threetea, .twotea{
+  display: inline-flex;
+
+}
+
+.threetea{
+  width: 1000px;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+
+.twotea{
+  width: 650px;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+
+figcaption {
+  margin-top: 10px; 
+  margin-bottom: 20px; 
+  font-weight: bold;
+}
+
+figure{
+  margin:0;
+}
+
+/*Locations*/
+.locations{
+  height:500px;
+  width: 1200px;
+  margin:80px 50px 12px 50px;
+  text-align:center;
+
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*1enr5bg*_ga*MDk1OTA5Njk2MS4xNjgxNDg1MTQx*_ga_3LRZM6TM9L*MTY4MjYwMTQ5Ni40NS4xLjE2ODI2MDMxODQuNTMuMC4w");
+}
+
+.eachlocation{
+  background-color: black;
+  width:300px;
+  box-sizing: border-box;
+  line-height:2;
+  opacity:1;
+
+}
+
+.threelocation{
+  display:inline-flex;
+  width: 980px;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+
+.locations h2{
+  margin-bottom: 15px;
+}
+
+.locationtext{
+  position: relative;
+  top: 70px;
+}
+
+/*footer*/
+.contact{
+  text-align:center;
+  width: 1300px;
+  box-sizing: border-box;
+  height:200px
+  
+}
+.copyright{
+  margin-top:100px;margin-left:20px;}
