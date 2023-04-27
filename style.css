@@ -7,8 +7,8 @@ body{
   opacity: 0.9;
   font-family: "Helvetica";
   font-size: 22px;
-Width:1300px;
-margin: auto; 
+  width:1300px;
+  margin: auto; 
 }
 
 /*Header*/
@@ -21,8 +21,8 @@ header{
   width: 1300px;
   border-bottom: 1px solid seashell;
   position:fixed;
-  Z-index:1;
-background-color: black;
+  z-index:1;
+  background-color: black;
 }
 .logo{
   padding-left:10px;
@@ -42,8 +42,8 @@ header .nav li {
 height:700px;
 width: 1200px;
 margin:0 50px 100px 50px;
-Position:relative;
-Top:70px;
+position:relative;
+top:70px;
 
   background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*oaw9jd*_ga*MDk1OTA5Njk2MS4xNjgxNDg1MTQx*_ga_3LRZM6TM9L*MTY4MjU1MjI4MS40My4xLjE2ODI1NTM3MDIuNjAuMC4w");
 }
